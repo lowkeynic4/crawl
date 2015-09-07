@@ -1,0 +1,72 @@
+Mon, 07 Sep 2015 17:26:24 log.py[line:127] INFO Scrapy 1.0.2 started (bot: w3school)
+Mon, 07 Sep 2015 17:26:24 log.py[line:130] INFO Optional features available: ssl, http11
+Mon, 07 Sep 2015 17:26:24 log.py[line:133] INFO Overridden settings: {'NEWSPIDER_MODULE': 'w3school.spiders', 'SPIDER_MODULES': ['w3school.spiders'], 'BOT_NAME': 'w3school'}
+Mon, 07 Sep 2015 17:26:24 middleware.py[line:51] INFO Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+Mon, 07 Sep 2015 17:26:24 middleware.py[line:51] INFO Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+Mon, 07 Sep 2015 17:26:24 middleware.py[line:51] INFO Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+Mon, 07 Sep 2015 17:26:24 middleware.py[line:51] INFO Enabled item pipelines: W3SchoolPipeline
+Mon, 07 Sep 2015 17:26:24 engine.py[line:230] INFO Spider opened
+Mon, 07 Sep 2015 17:26:24 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Mon, 07 Sep 2015 17:26:24 telnet.py[line:60] DEBUG Telnet console listening on 127.0.0.1:6023
+Mon, 07 Sep 2015 17:26:25 engine.py[line:212] DEBUG Crawled (200) <GET http://www.w3school.com.cn/xpath/index.asp> (referer: None)
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:35] INFO add one item
+Mon, 07 Sep 2015 17:26:25 w3school_spider.py[line:36] INFO done
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath \xe6\x95\x99\xe7\xa8\x8b'],
+ 'link': u'http://www.w3school.com.cn/xpath/index.asp',
+ 'title': u'XPath \u6559\u7a0b'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath \xe7\xae\x80\xe4\xbb\x8b'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_intro.asp',
+ 'title': u'XPath \u7b80\u4ecb'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath \xe8\x8a\x82\xe7\x82\xb9'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_nodes.asp',
+ 'title': u'XPath \u8282\u70b9'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath \xe8\xaf\xad\xe6\xb3\x95'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_syntax.asp',
+ 'title': u'XPath \u8bed\u6cd5'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath Axes\xef\xbc\x88\xe8\xbd\xb4\xef\xbc\x89'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_axes.asp',
+ 'title': u'XPath \u8f74'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath \xe8\xbf\x90\xe7\xae\x97\xe7\xac\xa6'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_operators.asp',
+ 'title': u'XPath \u8fd0\u7b97\u7b26'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['XPath \xe5\xae\x9e\xe4\xbe\x8b'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_examples.asp',
+ 'title': u'XPath \u5b9e\u4f8b'}
+Mon, 07 Sep 2015 17:26:25 scraper.py[line:237] DEBUG Scraped from <200 http://www.w3school.com.cn/xpath/index.asp>
+{'desc': ['\xe6\x82\xa8\xe5\xb7\xb2\xe7\xbb\x8f\xe5\xad\xa6\xe4\xb9\xa0\xe4\xba\x86 XPath\xef\xbc\x8c\xe4\xb8\x8b\xe4\xb8\x80\xe6\xad\xa5\xe5\x91\xa2\xef\xbc\x9f'],
+ 'link': u'http://www.w3school.com.cn/xpath/xpath_summary.asp',
+ 'title': u'XPath \u603b\u7ed3'}
+Mon, 07 Sep 2015 17:26:25 engine.py[line:269] INFO Closing spider (finished)
+Mon, 07 Sep 2015 17:26:25 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 232,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 7545,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 9, 7, 9, 26, 25, 291694),
+ 'item_scraped_count': 8,
+ 'log_count/DEBUG': 10,
+ 'log_count/INFO': 16,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2015, 9, 7, 9, 26, 24, 963914)}
+Mon, 07 Sep 2015 17:26:25 engine.py[line:300] INFO Spider closed (finished)
